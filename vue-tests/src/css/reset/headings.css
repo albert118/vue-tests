@@ -1,0 +1,28 @@
+:root .vui h1,
+:root .vui h2,
+:root .vui h3,
+:root .vui h4,
+:root .vui h5,
+:root .vui h6 {
+    display: block;
+    font-weight: bold;
+    border: none;
+    color: inherit;
+}
+
+/* Defaults from Figma */
+:root .vui h1 {
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+:root .vui h2 {
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}

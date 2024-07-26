@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "printWidth": 150,
+  "proseWrap": "always",
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "trailingComma": "none",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}

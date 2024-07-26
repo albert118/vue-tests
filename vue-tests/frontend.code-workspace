@@ -1,0 +1,74 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      ".nuget": true,
+      "*.{props,yml,dockerfile,cs}": true,
+      "**/{Models,ImagesRaw,build,deploy,.github,portal,ThirdPartyLibrary,tools}/": true,
+      "**/{Pme,PropertyMe}.*/": true,
+      "**/node_modules": true,
+      "**/pM.[!V]*/": true
+    },
+    "cSpell.words": [
+      "axios",
+      "Pinia",
+      "primevue",
+      "esbenp", // prettier package publisher
+      "nrwl" // nx package publisher
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // format on save is not enabled by default, you must opt-in within your user/settings.json
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+      "diffEditor.ignoreTrimWhitespace": true,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off"
+      },
+      "cSpell.fixSpellingWithRenameProvider": true,
+      "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+      "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // support Tailwind CSS syntax
+    "files.associations": {
+      "*.css": "tailwindcss"
+    }
+  },
+  "extensions": {
+    "recommendations": ["nrwl.angular-console", "esbenp.prettier-vscode", "Vue.volar", "bradlc.vscode-tailwindcss"]
+  }
+}

@@ -1,0 +1,9 @@
+/*
+	As the styles in the component can be overridden by PrimeVue,
+	any global changes to components can be made here.
+
+	When necessary, here are the styles to override those PrimeVue styles.
+*/
+.p-tabmenu .p-tabmenu-nav {
+	border-bottom: 1px solid #e5e7eb;
+}
